@@ -18,3 +18,11 @@ scripts/
 tsconfig.json
 tslint.json
 gruntfile.js
+
+# GulpGenerator related:
+# Gulp:
+/tools/
+./gulpfile.config.js
+./gulpfile.js
+
+.yo-rc.json

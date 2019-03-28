@@ -1,4 +1,5 @@
 secrets/
+.yo-rc.json
 
 # Logs
 logs
