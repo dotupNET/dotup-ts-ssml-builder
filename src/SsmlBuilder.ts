@@ -3,9 +3,9 @@ import { BreakStrength, EmphasisLevel, InterpretAsValues, ProsodyPitch, ProsodyR
 // tslint:disable:newline-before-return
 
 export class SsmlBuilder {
-  // get [Symbol.toStringTag]() {
-  //   return 'SsmlBuilder';
-  // }
+  get [Symbol.toStringTag]() {
+    return 'SsmlBuilder';
+  }
 
   protected stack: string[];
   protected textToSpeak: string[];

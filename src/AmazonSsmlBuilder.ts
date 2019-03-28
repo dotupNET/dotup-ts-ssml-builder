@@ -12,6 +12,9 @@ import { SsmlBuilder } from './SsmlBuilder';
 // French(fr - FR): Celine, Lea, Mathieu
 
 export class AmazonSsmlBuilder extends SsmlBuilder {
+  get [Symbol.toStringTag]() {
+    return 'AmazonSsmlBuilder';
+  }
 
   constructor() {
     super();
