@@ -1,6 +1,6 @@
 {
   "name": "dotup-ts-ssml-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typed ssml builder",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
